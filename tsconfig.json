@@ -4,13 +4,13 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/advent-of-code-2025-e2e"
-    },
-    {
-      "path": "./apps/advent-of-code-2025"
-    },
-    {
       "path": "./libs/math-utils"
+    },
+    {
+      "path": "./challenges/day01"
+    },
+    {
+      "path": "./libs/file-utils"
     }
   ]
 }
