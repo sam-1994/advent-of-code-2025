@@ -8,6 +8,9 @@
     },
     {
       "path": "./apps/advent-of-code-2025"
+    },
+    {
+      "path": "./libs/math-utils"
     }
   ]
 }
