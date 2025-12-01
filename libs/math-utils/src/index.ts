@@ -1,1 +1,2 @@
-export * from './lib/math-utils.js';
+export * from './lib/gcd';
+export * from './lib/lcm';
