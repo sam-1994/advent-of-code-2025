@@ -21,7 +21,7 @@
           "main": "challenges/day03/src/main.ts",
           "tsConfig": "challenges/day03/tsconfig.app.json",
           "assets": [
-            "challenges/day03/src/assets"
+            "challenges/day03/src/assets/*"
           ],
           "esbuildOptions": {
             "sourcemap": true,
