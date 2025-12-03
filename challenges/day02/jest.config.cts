@@ -10,7 +10,7 @@ const swcJestConfig = JSON.parse(
 swcJestConfig.swcrc = false;
 
 module.exports = {
-  displayName: 'file-utils',
+  displayName: 'day02',
   preset: '../../jest.preset.js',
   testEnvironment: 'node',
   transform: {
