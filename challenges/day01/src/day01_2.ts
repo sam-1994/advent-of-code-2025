@@ -1,17 +1,18 @@
-export function solve(commands: string[]): number {
+import { Input } from './get-input';
+
+export function solve(input: Input): number {
   let position = 50;
   let solution = 0;
 
-  for (const command of commands) {
+  for (const command of input) {
     const previousPosition = position;
-    const direction = command.charAt(0);
-    let value = parseInt(command.slice(1), 10);
+    let value = command.value;
     solution += Math.floor(value / 100);
     value = value % 100;
 
-    if (direction === 'L') {
+    if (command.direction === 'L') {
       position -= value;
-    } else if (direction === 'R') {
+    } else if (command.direction === 'R') {
       position += value;
     }
 
