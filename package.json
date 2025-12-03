@@ -39,7 +39,6 @@
   },
   "workspaces": [
     "libs/math-utils",
-    "challenges/*",
-    "libs/file-utils"
+    "challenges/*"
   ]
 }

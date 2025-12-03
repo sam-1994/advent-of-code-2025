@@ -10,7 +10,7 @@
       "path": "./challenges/day01"
     },
     {
-      "path": "./libs/file-utils"
+      "path": "./challenges/day02"
     }
   ]
 }
